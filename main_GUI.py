@@ -188,7 +188,7 @@ class Ui_MainWindow(object):
         self.pushButton_11.setText(_translate("MainWindow", "Tryb Manual ON"))
         self.pushButton_12.setText(_translate("MainWindow", "Zapisanie Temp. do DB"))
         self.pushButton_13.setText(_translate("MainWindow", "Zamknij Aplkację"))
-        self.label.setText(_translate("MainWindow", "<-- klik, błąd gdy MySql OFF"))
+        self.label.setText(_translate("MainWindow", "<-- klik"))
         self.label_2.setText(_translate("MainWindow", "<-- klik"))
         self.label_3.setText(_translate("MainWindow", "<-- klik"))
         self.label_4.setText(_translate("MainWindow", "<-- klik"))

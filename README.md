@@ -6,7 +6,7 @@ Main functions are located in main.py
 
 App elements:
 
-- weather API
+- Weather API
 - PostgreSQL
 - PyQT5
 

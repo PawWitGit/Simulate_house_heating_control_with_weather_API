@@ -1,0 +1,133 @@
+ ////// *** Get temp for api *** \\\\\\
+ # def get_temp_info_from_api(self):
+
+    #     response = requests.get(
+    #         "http://api.weatherapi.com/v1/current.json?key=6135b0d4cfec4f9c8eb195114210305&q=Katowice&aqi=no"
+    #     )
+
+    #     print("\n", json.dumps(response.json(), sort_keys=True, indent=2))
+
+    #     response_info = json.loads(response.text)
+    #     data = response_info["current"]["temp_c"]
+    #     print(data)
+
+ ////// *** Get temp for api print text json*** \\\\\\
+print(api_info.response_info)
+print(api_info.data1)
+print(api_info.data2)
+
+////// *** Start database *** \\\\\\
+# try:  # start connection to database
+#     get_connection_wth_database()
+#     print("\n|!pomyślnie połączono z bazą danych!|\n".upper())
+# except mysql.connector.Error:
+#     print(
+#         "\n!|błąd połączenia z bazą danych! sprawdź czy usługa jest włączona|!\n".upper()
+#     )
+
+
+
+# def gui_logic():
+    #     try:
+    #         while app_control.user_choice != 7:
+
+    #             print("\n1. Połącz z bazą danych")
+    #             print("2. Pobierz aktualną wartość temperatury w rejonie Katowic")
+    #             print("3. Wyświetl więcej informacji w formacie JSON")
+    #             print("4. Automatyczna praca pieca")
+    #             print("5. Ręczne zadanie wartości pracy pieca")
+    #             print("6. Zapisz temperaturę do bazy danych")
+    #             print("7. Zamknij aplikację")
+
+    #             app_control.user_choice = int(input("Wybierz co chcesz zrobić: "))
+
+    #             if app_control.user_choice == 1:  # start connection to database
+    #                 try:
+    #                     get_connection_wth_database()
+    #                     print("\n|!pomyślnie połączono z bazą danych!|\n".upper())
+    #                 except mysql.connector.Error:
+    #                     print(
+    #                         "\n|!błąd połączenia z bazą danych! sprawdź czy usługa jest włączona!|\n".upper()
+    #                     )
+
+    #             if app_control.user_choice == 2:
+    #                 print(
+    #                     "\nTemperatura z dnia",
+    #                     api_info.data2,
+    #                     "w rejonie Katowic to:",
+    #                     api_info.data1,
+    #                     "\n",
+    #                 )
+    #             if app_control.user_choice == 3:
+    #                 print("\n", api_info.response_info, "\n")
+
+    #             if app_control.user_choice == 4:
+    #                 power_stove_calcution(0, temp_celcius)
+
+    #                 # optional when use GUI
+    #                 # user_stop_auto = -1
+    #                 # while user_stop_auto != 10:
+    #                 #     power_stove_calcution(0, temp_celcius)
+    #                 #     time.sleep(3)
+
+    #             if app_control.user_choice == 5:
+    #                 power_calc.temp_calc = float(
+    #                     input("Podaj na ile procent ma pracować piec: ")
+    #                 )
+    #                 print(
+    #                     "\n|!praca pieca w trybie ręcznym aktywna, moc pieca ustawiona na:".upper(),
+    #                     int(power_calc.temp_calc),
+    #                     "%!|\n".upper(),
+    #                 )
+    #             # try:
+    #             if app_control.user_choice == 6:
+
+    #                 # print(
+    #                 #     "\nTemperatura z dnia",
+    #                 #     api_info.data2,
+    #                 #     "w rejonie Katowic to:",
+    #                 #     api_info.data1,
+    #                 #     "\n",
+    #                 # )
+    #                 print("Narazie nie działa, po zrobieniu GUIs")
+    #                 # put_values_to_db()
+    #                 # print("\n|!zarchiwizowane dane w bazie danych!|\n".upper())
+
+    #             # except mysql.connector.Error:
+    #             #     print("|! Błąd żądania!|")
+
+    #             if app_control.user_choice == 7:
+    #                 return print("\n|!zamykanie aplikacji!|\n".upper())
+
+    #     except NameError:
+    #         print("\n|!APP FAULT!|")
+    #         print(
+    #             "\n|!BŁĄD POŁĄCZENIA Z  BAZĄ DANYCH LUB, INTERNETEM, SPRAWDŹ POŁĄCZANIA!|\n"
+    #         )
+
+    # # /// *** app elements start working *** \\\
+
+    # gui_logic()
+
+    # while True:
+    #     api_info = GetTemperatureFromApi(  # create object and assignment values for GetTempFromApi
+    #         # response info
+    #         json.loads(
+    #             requests.get(
+    #                 "http://api.weatherapi.com/v1/current.json?key=6135b0d4cfec4f9c8eb195114210305&q=Katowice&aqi=no"
+    #             ).text
+    #         ),
+    #         # data1, Value in database table 'water_temp'
+    #         json.loads(
+    #             requests.get(
+    #                 "http://api.weatherapi.com/v1/current.json?key=6135b0d4cfec4f9c8eb195114210305&q=Katowice&aqi=no"
+    #             ).text
+    #         )["current"]["temp_c"],
+    #         # data2, day in database table 'water_temp'
+    #         json.loads(
+    #             requests.get(
+    #                 "http://api.weatherapi.com/v1/current.json?key=6135b0d4cfec4f9c8eb195114210305&q=Katowice&aqi=no"
+    #             ).text
+    #         )["location"]["localtime"],
+    #     )
+    #     time.sleep(30)

@@ -1,0 +1,359 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "jsonpickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jsonpickle",
+        "description": "jsonpickle",
+        "detail": "jsonpickle",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "_QOpenGLFunctions_2_0",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "_QOpenGLFunctions_2_0",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "StoveControl",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "StoveControl",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql",
+        "description": "mysql",
+        "detail": "mysql",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "psycopg2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "GetTemperatureFromApi",
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "isExtraImport": true,
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "isExtraImport": true,
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "isExtraImport": true,
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "jsonpickle",
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "isExtraImport": true,
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "GetTemperatureFromApi",
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "isExtraImport": true,
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "isExtraImport": true,
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "isExtraImport": true,
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "jsonpickle",
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "isExtraImport": true,
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Calculation",
+        "importPath": "power_stove_calculate",
+        "description": "power_stove_calculate",
+        "isExtraImport": true,
+        "detail": "power_stove_calculate",
+        "documentation": {}
+    },
+    {
+        "label": "Calculation",
+        "importPath": "power_stove_calculate",
+        "description": "power_stove_calculate",
+        "isExtraImport": true,
+        "detail": "power_stove_calculate",
+        "documentation": {}
+    },
+    {
+        "label": "PgDatabase",
+        "importPath": "pgadmin_configuration",
+        "description": "pgadmin_configuration",
+        "isExtraImport": true,
+        "detail": "pgadmin_configuration",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "InputGuiValues",
+        "importPath": "gui_input",
+        "description": "gui_input",
+        "isExtraImport": true,
+        "detail": "gui_input",
+        "documentation": {}
+    },
+    {
+        "label": "GetTemperatureFromApi",
+        "kind": 6,
+        "importPath": "api_temp_request",
+        "description": "api_temp_request",
+        "peekOfCode": "class GetTemperatureFromApi:\n    def __init__(self, response_info, data1, data2):\n        self.response_info = response_info\n        self.data1 = data1\n        self.data2 = data2",
+        "detail": "api_temp_request",
+        "documentation": {}
+    },
+    {
+        "label": "InputGuiValues",
+        "kind": 6,
+        "importPath": "gui_input",
+        "description": "gui_input",
+        "peekOfCode": "class InputGuiValues(QtWidgets.QWidget, StoveControl):\n    input_values = StoveControl()\n    def __init__(self):\n        super().__init__()\n        self.btn = QtWidgets.QPushButton(\"Podaj moc na której ma pracować piec\", self)\n        self.btn.move(0, 20)\n        self.btn.clicked.connect(self.show_input_temp_dialog)\n        self.text_name = QtWidgets.QLineEdit(self)\n        self.text_name.move(100, 22)\n        self.text_name.setPlaceholderText(\"% mocy pieca: \")",
+        "detail": "gui_input",
+        "documentation": {}
+    },
+    {
+        "label": "StoveControl",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class StoveControl:\n    print(\n        \"Witaj w aplikacji sterującej piecem, pamiętaj że aplikacja wymaga dostępu do sieci!!!\\n\"\n    )\n    clear = lambda: system(\"clear\")  # terminal clear\n    clear()\n    # /// *** create objects *** \\\\\\\n    try:  # internet fault connection\n        api_info = GetTemperatureFromApi(  # create object and assignment values for GetTempFromApi\n            # response info",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_MainWindow",
+        "kind": 6,
+        "importPath": "main_GUI",
+        "description": "main_GUI",
+        "peekOfCode": "class Ui_MainWindow(object):\n    qt_text = StoveControl()\n    def setupUi(self, MainWindow):\n        buttons_connect = StoveControl()\n        MainWindow.setObjectName(\"MainWindow\")\n        MainWindow.resize(1000, 500)\n        self.centralwidget = QtWidgets.QWidget(MainWindow)\n        self.centralwidget.setObjectName(\"centralwidget\")\n        self.pushButton_7 = QtWidgets.QPushButton(self.centralwidget)\n        self.pushButton_7.setGeometry(QtCore.QRect(9, 4, 181, 71))",
+        "detail": "main_GUI",
+        "documentation": {}
+    },
+    {
+        "label": "PgDatabase",
+        "kind": 6,
+        "importPath": "pgadmin_configuration",
+        "description": "pgadmin_configuration",
+        "peekOfCode": "class PgDatabase:\n    def __init__(\n        self, db_name, db_user, db_pass, db_host, db_port, id, temp_data, temp_value\n    ):\n        self.db_name = db_name\n        self.db_user = db_user\n        self.db_host = db_host\n        self.db_pass = db_pass\n        self.db_port = db_port\n        self.id = id",
+        "detail": "pgadmin_configuration",
+        "documentation": {}
+    },
+    {
+        "label": "Calculation",
+        "kind": 6,
+        "importPath": "power_stove_calculate",
+        "description": "power_stove_calculate",
+        "peekOfCode": "class Calculation:\n    def __init__(self, temp_calc):\n        self.temp_calc = temp_calc",
+        "detail": "power_stove_calculate",
+        "documentation": {}
+    }
+]
